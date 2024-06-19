@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct NetworkMonitorSwiftUIApp: App {
+    @ObservedObject var monitor = NetworkMonitor()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(monitor)
         }
     }
 }

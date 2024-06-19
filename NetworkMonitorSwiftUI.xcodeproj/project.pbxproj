@@ -11,6 +11,8 @@
 		6C7C3F552C23236E00824B3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C3F542C23236E00824B3F /* ContentView.swift */; };
 		6C7C3F572C23236F00824B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7C3F562C23236F00824B3F /* Assets.xcassets */; };
 		6C7C3F5A2C23236F00824B3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7C3F592C23236F00824B3F /* Preview Assets.xcassets */; };
+		6C7C3F612C23238500824B3F /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C3F602C23238500824B3F /* NetworkMonitor.swift */; };
+		6C7C3F632C23339900824B3F /* OfflineAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C3F622C23339900824B3F /* OfflineAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		6C7C3F542C23236E00824B3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6C7C3F562C23236F00824B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C7C3F592C23236F00824B3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C7C3F602C23238500824B3F /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		6C7C3F622C23339900824B3F /* OfflineAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				6C7C3F542C23236E00824B3F /* ContentView.swift */,
 				6C7C3F562C23236F00824B3F /* Assets.xcassets */,
 				6C7C3F582C23236F00824B3F /* Preview Content */,
+				6C7C3F602C23238500824B3F /* NetworkMonitor.swift */,
+				6C7C3F622C23339900824B3F /* OfflineAlertView.swift */,
 			);
 			path = NetworkMonitorSwiftUI;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C7C3F552C23236E00824B3F /* ContentView.swift in Sources */,
+				6C7C3F612C23238500824B3F /* NetworkMonitor.swift in Sources */,
 				6C7C3F532C23236E00824B3F /* NetworkMonitorSwiftUIApp.swift in Sources */,
+				6C7C3F632C23339900824B3F /* OfflineAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
